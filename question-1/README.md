@@ -3,7 +3,7 @@
 ## Option A:
 ```
 <?php 
-   function kohomes_get_categories_name_for_class( ) {
+   function get_categories_name_for_class( ) {
         $separator = ' ';
         $cat_name_as_class = '';
         $post_type = get_post_type(get_the_ID());   
